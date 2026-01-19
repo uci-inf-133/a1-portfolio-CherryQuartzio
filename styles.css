@@ -1,0 +1,87 @@
+html {
+    margin: 0 auto;
+    max-width: 1450px;
+}
+
+body {
+    color: #15171a;
+    background-color: #f0ece6;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    margin: 2rem 0;
+}
+
+.topnav ul {
+    list-style-type: none; /* Removes default bullet points */
+    margin: 40;
+    padding: 0;
+    display: flex; /* Activates Flexbox on the unordered list */
+    justify-content: left; /* Distributes items evenly with space between them */
+    overflow: hidden; /* Recommended when using floats for backward compatibility */
+}
+
+.bottommenu ul {
+    list-style-type: none; /* Removes default bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Activates Flexbox on the unordered list */
+    justify-content: center; /* Distributes items evenly with space between them */
+    overflow: hidden; /* Recommended when using floats for backward compatibility */
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.bottommenu .nav li+li:before {
+    content: "•";
+    font-size: .9rem;
+    line-height: 0;
+    padding: 0 1.2rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.grayed-out {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.copyright {
+    font-size: 14px
+}
+
+.site-footer {
+    padding-top: 6rem;
+}
+
+#me {
+  border-radius: 16px; /* Applies 15px radius to all four corners */
+}
+
+h1 {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#introduction {
+    padding: 2rem 0;
+}
