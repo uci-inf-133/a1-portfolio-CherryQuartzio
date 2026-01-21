@@ -20,48 +20,45 @@ EMAIL: quangmn4@uci.edu
 
     <!-- you would also link to Bootstrap here! -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=2000px,initial-scale=1">
     
     <link rel="stylesheet" href="styles.css">
     
   </head>
+  <body class="container">
+    <main class="container">
 
-  <body>
+      <!-- Header section -->
+      <header id="header-section" class="primary">
+        <div class="col-md-12">
+          <nav class="header-nav">
+            <ul class="horizontal-list">
+              <li> <a class="nav-link" href="https://quangmn.com"> Blogging site </a> </li>
+              <li> <a class="nav-link last-item" href="http://validator.w3.org/check?uri=referer"> W3C validator </a> </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 
-    <!-- Header section -->
-    <header id="site-header" class="primary">
-      <div>
-        <nav class="topnav">
-          <ul>
-            <li> <a class="grayed-out" href="https://quangmn.com"> Blogging site </a> </li>
-            <li> <a class="grayed-out" href="http://validator.w3.org/check?uri=referer"> W3C validator </a> </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <!-- Main content section -->
-    <main>
-      <div>
-        <h1> Hi! I'm Quang Nguyen </h1>
-      </div>
+      <h1> Hi! I'm Quang Nguyen </h1>
 
       <!-- Introduction -->
-      <div class="row" id="introduction">
-        <div class="col-md-6">
-          <img src="quang.jpg" id="me" alt="Quang Nguyen" width="300" />
+      <div class="row" id="intro-block">
+        <div class="col-md-6" id="intro-img">
+          <img src="quang.jpg" class="img-fluid" id="quang" style="border-radius: 8px;" alt="Quang Nguyen" height="300" />
         </div>
         <div class="col-md-6">
           <p>
-          I'm a software developer and machine learning engineer who is studying computer science at the University of California, Irvine. My fields includes full-stack software engineering, IT-management, and Artificial Intelligence. <br>
-          I always have a curiosity with the use of technology in the real world and how it can make life easier. 
-          Be it a server software that automatically sync data across different platforms or a home automation routine that do chores for you, there are many applications that I have not explored but would love to. 
+            I'm a software developer and machine learning engineer who is studying computer science at the University of California, Irvine. My fields includes full-stack software engineering, IT-management, and Artificial Intelligence.
+          </p>
+          <p>
+            I always have a curiosity with the use of technology in the real world and how it can make life easier. 
+            Be it a server software that automatically sync data across different platforms or a home automation routine that do chores for you, there are many applications that I have not explored but would love to. 
           </p>
         </div>
       </div>
 
-      <div>
-        <h2> Education </h2>
-      </div>
+      <h2> Education </h2>
 
       <div>
         <h3> University of California, Irvine </h3>
@@ -79,9 +76,7 @@ EMAIL: quangmn4@uci.edu
         </p>
       </div>
 
-      <div>
-        <h2> Projects </h2>
-      </div>
+      <h2> Projects </h2>
 
       <div>
         <h3> Steam game recommendation engine </h3>
@@ -92,9 +87,7 @@ EMAIL: quangmn4@uci.edu
         </p>
       </div>
 
-      <div>
-        <h2> Skills </h2>
-      </div>
+      <h2> Skills </h2>
 
       <div>
         <h3> Programming Language </h3>
@@ -120,31 +113,34 @@ EMAIL: quangmn4@uci.edu
         </p>
       </div>
 
-    </main>
-
-    <!-- Footer section -->
-    <footer>
-      <div class="site-footer">
-        <nav class="bottommenu">
-          <ul>
-            <li> 
-              <a class="grayed-out" href="https://www.linkedin.com/in/quangmn/">LinkedIn</a> 
-            </li>
-            <li> 
-              ::before
-              <a class="grayed-out" href="https://www.youtube.com/@quangmn_yt">YouTube</a>
-            </li>
-            <li>
-              ::before
-              <a class="grayed-out" href="mailto:quang@quangmn.com">Email</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="center-text grayed-out copyright">
-          © 2026 Quang Nguyen
-        </div>
+      <div>
+        <h2> Contact </h2>
+        <p>
+          Should you need to contact me for any inquiries, please fill in the information below
+        </p>
       </div>
-    </footer>
+
+      <footer>
+        <div class="site-footer">
+          <nav>
+            <ul class="horizontal-list" id="bottom-nav">
+              <li> 
+                <a class="grayed-out nav-link" href="https://www.linkedin.com/in/quangmn/">LinkedIn</a> 
+              </li>
+              <li> 
+                <a class="grayed-out nav-link" href="https://www.youtube.com/@quangmn_yt">YouTube</a>
+              </li>
+              <li>
+                <a class="grayed-out nav-link last-item" href="mailto:quang@quangmn.com">Email</a>
+              </li>
+            </ul>
+          </nav>
+          <div id="copyright" class="center-text grayed-out">
+            © 2026 Quang Nguyen
+          </div>
+        </div>
+      </footer>
+    </main>
   </body>
 
 </html>
