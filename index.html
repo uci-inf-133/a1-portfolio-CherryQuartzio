@@ -7,7 +7,7 @@ EMAIL: quangmn4@uci.edu
 -->
 
   <head>
-    <title>Quang Nguyen - Portfolio</title>
+    <title>Quang Nguyen</title>
     <meta charset="utf-8">
     <meta name="author" content="Quang Nguyen">
     <meta name="description" content="Portfolio of Quang Nguyen">
@@ -20,7 +20,7 @@ EMAIL: quangmn4@uci.edu
 
     <!-- you would also link to Bootstrap here! -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <meta name="viewport" content="width=2000px,initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     
     <link rel="stylesheet" href="styles.css">
     
@@ -34,7 +34,7 @@ EMAIL: quangmn4@uci.edu
           <nav class="header-nav">
             <ul class="horizontal-list">
               <li> <a class="nav-link" href="https://quangmn.com"> Blogging site </a> </li>
-              <li> <a class="nav-link last-item" href="http://validator.w3.org/check?uri=referer"> W3C validator </a> </li>
+              <li> <a class="nav-link last-item" href="resume.pdf"> Resume </a> </li>
             </ul>
           </nav>
         </div>
@@ -45,7 +45,7 @@ EMAIL: quangmn4@uci.edu
       <!-- Introduction -->
       <div class="row" id="intro-block">
         <div class="col-md-6" id="intro-img">
-          <img src="quang.jpg" class="img-fluid" id="quang" style="border-radius: 8px;" alt="Quang Nguyen" height="300" />
+          <img src="quang.jpg" class="img-fluid" id="quang-nguyen" style="border-radius: 8px;" alt="Quang Nguyen" height="300">
         </div>
         <div class="col-md-6">
           <p>
@@ -58,22 +58,61 @@ EMAIL: quangmn4@uci.edu
         </div>
       </div>
 
-      <h2> Education </h2>
-
       <div>
-        <h3> University of California, Irvine </h3>
-        <p class="text_details grayed-out"> Computer Science, Bachelor of Science • GPA 3.98 • 2024-2026 </p>
-        <p>
-          My studies at the university includes topic in AI, machine learning, search system, DBMS, human-computer interactions, computer networking, and algorithms. The general focus was on intelligent system.
-        </p>
+        <h2> Skills </h2>
+
+        <div>
+          <h3> Programming Language </h3>
+          <p>
+            I can write program code in C, C++, Python, Java, and MIPS Assembly. For web development, I have some experience working with HTML and Cascading Style Sheet (CSS)
+          </p>
+        </div>
+
+        <div>
+          <h3> Development Tools </h3>
+          <p>
+            For IDEs, I have used Visual Studio Code, Visual Studio, PyCharm, CLion, and IntelliJ IDEA. I am also familiar with the Git version control system as well as the Bash terminal on Linux system.
+          </p>
+          <p>
+            I am also familiar with deploying software using Docker containers as well as writing Docker Compose files. This also extends to Podman to some degree.
+          </p>
+        </div>
+
+        <div>
+          <h3> IT Administration </h3>
+          <p>
+            I have been the administrator for certain IT system including Microsoft 365, Cloudflare, Oracle Cloud, Proxmox, and Ubiquiti's UniFi OS.
+          </p>
+        </div>
+
       </div>
 
       <div>
-        <h3> Cosumnes River College </h3>
-        <p class="text_details grayed-out"> Computer Science transfer • GPA 4.0 • 2022-2024 </p>
+        <h2>Experience</h2>
         <p>
-          Preparing for my transfer to a university, my studies at college primarily focused on programming with C++ and Java.
+          As I am soon to be a recent graduate, I unfortunately have not gotten the chance to be in any workplace. However, I am committed to make the most out of any opportunity I can have.
         </p>
+
+      </div>
+
+      <div>
+        <h2> Education </h2>
+
+        <div>
+          <h3> University of California, Irvine </h3>
+          <p class="text_details grayed-out"> Computer Science, Bachelor of Science • GPA 3.98 • 2024-2026 </p>
+          <p>
+            My studies at the university includes topic in AI, machine learning, search system, DBMS, human-computer interactions, computer networking, and algorithms. The general focus was on intelligent system.
+          </p>
+        </div>
+
+        <div>
+          <h3> Cosumnes River College </h3>
+          <p class="text_details grayed-out"> Computer Science transfer • GPA 4.0 • 2022-2024 </p>
+          <p>
+            Preparing for my transfer to a university, my studies at college primarily focused on programming with C++ and Java.
+          </p>
+        </div>
       </div>
 
       <h2> Projects </h2>
@@ -87,37 +126,29 @@ EMAIL: quangmn4@uci.edu
         </p>
       </div>
 
-      <h2> Skills </h2>
-
-      <div>
-        <h3> Programming Language </h3>
-        <p>
-          I can write program code in C, C++, Python, Java, and MIPS Assembly. For web development, I have some experience working with HTML and Cascading Style Sheet (CSS)
-        </p>
-      </div>
-
-      <div>
-        <h3> Tools </h3>
-        <p>
-          For IDEs, I have used Visual Studio Code, Visual Studio, PyCharm, CLion, and IntelliJ IDEA. I am also familiar with the Git version control system as well as the Bash terminal on Linux system.
-        </p>
-        <p>
-          I am also familiar with deploying software using Docker containers as well as writing Docker Compose files. This also extends to Podman to some degree.
-        </p>
-      </div>
-
-      <div>
-        <h3> Administrations </h3>
-        <p>
-          I have been the administrator for certain IT system including Microsoft 365, Cloudflare, Oracle Cloud, Proxmox, and Ubiquiti's UniFi OS.
-        </p>
-      </div>
-
       <div>
         <h2> Contact </h2>
         <p>
           Should you need to contact me for any inquiries, please fill in the information below
         </p>
+
+        <form>
+          <div class="contact-form">
+            <label for="name"> <strong>Name</strong> </label>
+            <input class="text-field form-control" type="text" name="name" id="name" required >
+          </div>
+          <div class="contact-form">
+            <label for="email"> <strong>Email</strong> </label>
+            <input class="text-field form-control" type="email" name="email" id="email" required >
+          </div>
+          <div class="contact-form">
+            <label for="contact-response"> <strong>Response</strong> </label>
+            <textarea class="text-field form-control" id="contact-response" name="form" rows="6" cols="40" required></textarea>
+          </div>
+          <div class="contact-form">
+            <input class="button" type="submit" value="Send message">
+          </div>
+        </form>
       </div>
 
       <footer>
@@ -142,5 +173,4 @@ EMAIL: quangmn4@uci.edu
       </footer>
     </main>
   </body>
-
 </html>
